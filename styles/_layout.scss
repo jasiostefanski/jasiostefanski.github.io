@@ -9,25 +9,20 @@
         flex-direction: column;
         justify-content: center;
         flex-grow: 1;
-        text-align:center
+        text-align:center;
     }
-    & figure {
-        visibility: hidden;
-        width:100%;
-        height:100%;
-        opacity: 0;
-        // transition:opacity .33s ease-in;
+    & figure{
+        
     }
-    & div:hover figure{
-        width:100%;
-        height:100%;
-        display:block;
-        visibility: visible;
-        // transition:opacity .33s ease-in;
-        opacity:1;
-        position:absolute;
-        top:0;
-        left:0;
-        pointer-events: none;
-    }
+    // & div:hover figure{
+    //     width:100%;
+    //     height:100%;
+    //     visibility: visible;
+    //     opacity:1;
+    //     position:absolute;
+    //     top:0;
+    //     left:0;
+    //     pointer-events: none;
+    //     z-index:9998
+    // }
 }
