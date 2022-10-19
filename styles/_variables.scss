@@ -1,0 +1,39 @@
+
+/* Layout */
+$header-height: 3rem;
+
+/* Colors */
+$first-color: #92e3a9;
+$first-color-alt: #4fe378;
+$text-color: black;
+$body-color: rgb(255,255,255)
+;
+
+/* Font and typography */
+$body-font: times, sans-serif;
+$h1-font-size: 1.1rem;
+$normal-font-size: 1.1rem;
+
+@media screen and (min-width: 968px) {
+  $h1-font-size: 1rem;
+  $normal-font-size: 2rem;
+}
+
+/* Font weight */
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-normal:400;
+
+/* Margins */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+@mixin btn {
+  border-radius:5px;
+  padding:0px 3px;
+  cursor:pointer;
+}
